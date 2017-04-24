@@ -4,11 +4,12 @@ import java.text.ParseException;
 import java.util.List;
 
 import com.oa.app.domain.RequestValues;
+import com.oa.app.entity.AnalyticsTable;
 
 
 public interface FSRestServiceYCalc {
 	
-	public String yCalculation(RequestValues greetingNew) throws ParseException;
+	public String yCalculation(AnalyticsTable at);
 
 	
 
